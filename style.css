@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: black;
+	/*overflow-y: hidden;*/
+}
+h1{
+	color: white;
+	font-family: 'Creepster';
+	font-size: 5rem;
+	text-align: center;
+	margin-top: 3rem;
+}
+
+h3{
+	color: white;
+	font-family: 'Creepster', cursive;
+	font-size: 1.5rem;
+	text-align: center;
+	padding: 2% 10% 0% 10%;
+}
+.wrapper{
+	/*height: 70vh;*/
+	position: absolute;
+	padding-top: 2%;
+}
+
+canvas {
+	border: 5px solid black;
+	border-radius: 10px;
+	position: absolute;
+	transform: translateX( 30%);
+	
+	font-family: 'Creepster', cursive;
+}
+
+#player, #layer1, #layer2, #layer3, #layer4, #layer5, #enemy_fly, #enemy_plant , #enemy_spider_big, #fire, #boom, #layer11, #layer22, #layer33, #layer44, #layer55, #heart, #lives {
+	display: none;
+}
